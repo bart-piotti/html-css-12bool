@@ -1,0 +1,41 @@
+body {
+    background-image: url('img/idiot.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.flag_container {
+    margin-top: 75px;
+    opacity: 0;
+}
+.blue {
+    background-color: rgba(60, 59, 110, 0.9);
+    height: 350px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.stella_wrap {
+    height: 100% ;
+}
+
+.riga_5stelle i, .riga_6stelle i{
+    font-size: calc((350px / 9) - (40px / 9));
+    color: rgba(255, 255, 255, 0.75);
+}
+.riga_5stelle, .riga_6stelle {
+    height: calc((350px / 9) - (40px / 9));
+}
+.red {
+    background-color: rgba(178, 34, 52, 0.9);
+    height: 50px;
+}
+.white {
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 50px;
+}
+
+.flag_container:hover {
+    opacity: 1;
+}
