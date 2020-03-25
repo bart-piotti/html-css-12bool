@@ -39,3 +39,23 @@ body {
 .flag_container:hover {
     opacity: 1;
 }
+
+@media screen and (max-width: 700px) {
+    .red, .white {
+        height: 25px;
+    }
+
+    .blue {
+        height: 175px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+    .riga_5stelle i, .riga_6stelle i{
+        font-size: calc((175px / 9) - (20px / 9));
+        color: rgba(255, 255, 255, 0.75);
+    }
+    .riga_5stelle, .riga_6stelle {
+        height: calc((175px / 9) - (20px / 9));
+    }
+}
